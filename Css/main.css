@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	margin: 0;
+	padding: 0;
+}
+#container
+{
+	width: 100%;
+	height: 1500px;
+	background-color:aliceblue;
+	
+	
+}
+.header
+{
+	width: 100%;
+	height: 1000px;
+	background:url("../Images/thump-roblox.jpg");
+	background-size: cover;
+	
+	
+	
+}
+.banner
+{
+	width: 100%;
+	height: 50px;
+	background-color:#000000;
+	padding:   50px;
+	box-sizing: border-box;
+	background: url("../Images/roblox-landing-mobile-08-21-020304.jpg");
+		
+	
+	
+	
+	
+}
+.logo
+{
+	 
+	width: 15%;
+	height: 60px;
+	
+	background-color: #373737;
+	float: left;
+	
+	
+}
+.menu
+{
+	width: 85%;
+	height: 60px;
+	background-color:#525252;
+	float: right;
+	
+	
+}
+.menu ul 
+{
+	list-style: none;
+	
+}
+.menu ul li 
+{
+	float:left;
+	padding:     10px    50px ;
+}
+.menu ul li a 
+{
+	text-decoration: none;
+	color:#FFFFFF
+	
+}
+.slider
+{ 
+	width: 100%;
+		height: 700px;
+	
+	box-sizing: border-box;
+	padding: 100px 100px 
+	
+	
+}
+button
+{
+	width:130px;
+	height:40px;
+	border-radius: 50px;
+	background-color: #FFFFFF;
+	boder: none;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	
+}
+@font-face
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	src: url("../font/Roboto-LightItalic.ttf");
+		
+}
+.footer 
+{
+	width:100%;
+	height: 250px;
+	background-color: #000000;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
